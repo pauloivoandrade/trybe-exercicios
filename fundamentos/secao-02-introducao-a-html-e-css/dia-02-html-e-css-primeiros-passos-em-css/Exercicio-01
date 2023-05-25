@@ -9,9 +9,7 @@
             color: orange;
             size: 60px;
         }
-        ul {
-            background-color: blue;
-        }
+       
         .background {
             background-color: lightcoral;
         }
