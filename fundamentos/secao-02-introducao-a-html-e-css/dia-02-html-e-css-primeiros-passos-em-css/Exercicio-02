@@ -7,12 +7,13 @@
         h1 {
             font-family: sans-serif;
             text-align: center;
-            text-decoration: double;
+            text-decoration: underline wavy red;
         }
         p {
             font-weight: 600;
-            size: calc(3*body);
+            size: calc(3*16px);
             font-family: impact;
+            line-height: 30px;
 
         }
         body {
