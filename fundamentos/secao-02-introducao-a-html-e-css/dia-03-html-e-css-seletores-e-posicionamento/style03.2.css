@@ -25,7 +25,7 @@ div:nth-of-type(1) > h3 {
     color: rgb(255, 255, 255);
     font-family: arial;
     font-size: 25px;
-    font-style: normal;
+    font-style: italic;
 }
 div:nth-of-type(2) > h3 {
     color: rgb(255, 255, 255);
@@ -37,7 +37,7 @@ div:nth-of-type(3) > h3 {
     color: rgb(255, 255, 255);
     font-family: arial;
     font-size: 35px;
-    font-style: normal;
+    font-style: italic;
 }
 div:nth-of-type(4) > h3 {
     color: rgb(255, 255, 255);
@@ -49,5 +49,5 @@ div:nth-of-type(5) > h3 {
     color: rgb(113, 112, 112);
     font-family: arial;
     font-size: 25px;
-    font-style: normal;
+    font-style: italic;
 }
