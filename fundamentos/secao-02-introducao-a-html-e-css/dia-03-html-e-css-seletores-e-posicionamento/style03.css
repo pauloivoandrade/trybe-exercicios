@@ -4,4 +4,9 @@
 li:hover{
     background-color: rgb(50, 106, 59);
 }
-li:
+li:active{
+    font-family: georgia;
+}
+li{
+    list-style: none;
+}
