@@ -1,3 +1,6 @@
 div:hover{
     border: solid;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: rgb(92, 224, 224);
 }
