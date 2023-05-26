@@ -37,4 +37,20 @@ li:nth-last-of-type(3){
     font-weight: bold;
     color: orange;
 }
-nth
+.sitesdev :nth-of-type(2) :hover{
+    font-weight: bold;
+    color: green;
+
+}
+.sitesdev :nth-of-type(3) :hover{
+    font-weight: bold;
+    color: black;
+}
+.sitesdev :nth-of-type(4) :hover{
+    font-weight: bold;
+    color: yellow;
+}
+.sitesdev :nth-of-type(5) :hover{
+    font-weight: bold;
+    color: greenyellow;
+}
