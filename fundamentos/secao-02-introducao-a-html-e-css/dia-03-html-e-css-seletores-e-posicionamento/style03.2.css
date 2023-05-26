@@ -4,3 +4,7 @@ div:hover{
     border-style: ridge;
     border-color: rgb(92, 224, 224);
 }
+div:nth-of-type(1) {
+    background-color: red;
+
+}
