@@ -7,6 +7,11 @@ ol{
 .lista:nth-child(odd)  {
     text-transform:uppercase;
 }
-.header{
+.header {
     color: red;
+    
+}
+h1.header {
+    font-size: 40px;
+    border: 1px solid black;
 }
