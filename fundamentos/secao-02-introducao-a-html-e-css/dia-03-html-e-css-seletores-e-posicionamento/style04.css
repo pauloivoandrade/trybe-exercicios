@@ -30,3 +30,6 @@ li:nth-last-of-type(4){
 li:nth-last-of-type(3){
     color: blue;
 }
+.java{
+    background-color: pink;
+}
