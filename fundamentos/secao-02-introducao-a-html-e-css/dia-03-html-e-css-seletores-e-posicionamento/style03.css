@@ -7,6 +7,11 @@ li:hover{
 li:active{
     font-family: georgia;
 }
-li{
+ul, ol{
     list-style: none;
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(50, 106, 59);
 }
