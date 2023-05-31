@@ -1,0 +1,12 @@
+var num1 = 5;
+var num2 = 2;
+var Adição = (num1 + num2);
+var Subtração = (num1 - num2);
+var Multiplicação = (num1 * num2);
+var Divisão = (num1 / num2);
+var Módulo = (num1 % num2);
+console.log(Adição);
+console.log(Subtração);
+console.log(Multiplicação);
+console.log(Divisão);
+console.log(Módulo);
