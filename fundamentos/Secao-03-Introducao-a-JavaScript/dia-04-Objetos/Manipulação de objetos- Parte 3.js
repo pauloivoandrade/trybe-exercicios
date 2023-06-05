@@ -37,4 +37,13 @@ const somaAlunos = (obj) => {
     } return soma;
     } 
 
-console.log(somaAlunos(school));
+const keyExists = (obj, key) => {
+    for(let index = 0; index < obj.length; index += 1){
+        if(obj[index][key] ===  undefined){
+            return false;
+        }
+    }
+    return true;
+} 
+console.log(keyExists(school, 'shift'));
+
