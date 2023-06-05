@@ -45,5 +45,13 @@ const keyExists = (obj, key) => {
     }
     return true;
 } 
-console.log(keyExists(school, 'shift'));
+
+const turnoChange = (obj, curso, turno) => {
+    for(let index = 0; index < obj.length; index += 1)
+        if(obj[index].course === curso) {
+            obj[index].shift = turno;
+        }console.log(turnoChange(school, 'Python', 'Tarde'));
+
+} 
+
 
