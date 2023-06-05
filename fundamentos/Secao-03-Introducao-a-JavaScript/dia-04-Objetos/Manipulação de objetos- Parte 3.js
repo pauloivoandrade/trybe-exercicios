@@ -1,3 +1,5 @@
+const { log } = require("console");
+
 const school = [
   {
     course: 'Python',
@@ -26,4 +28,13 @@ const school = [
 
 const getValueByNumber = (obj, index) => Object.values(obj)[index];
 
-console.log(getValueByNumber(school, 0));
+
+
+const somaAlunos = (obj) => {
+    let soma = 0;
+    for(let index = 0; index < obj.length; index += 1){
+       soma += obj[index].students;
+    } return soma;
+    } 
+
+console.log(somaAlunos(school));
