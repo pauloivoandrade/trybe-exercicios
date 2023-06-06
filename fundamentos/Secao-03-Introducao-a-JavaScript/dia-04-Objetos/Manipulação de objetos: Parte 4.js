@@ -26,14 +26,20 @@ const basket = [
       const elemento = array[index];
       
       if (elementosSeparados[elemento]) {
-        elementosSeparados[elemento].push(elemento);
+        
+        quantidade += 1
+        elementosSeparados[elemento] = quantidade 
+    //    elementosSeparados[elemento].push(elemento);
       } else {
-        elementosSeparados[elemento] = [elemento];
+        let  quantidade = 1;
+        elementosSeparados[elemento] = quantidade;
       }
     }
-    
-    return Object.values(elementosSeparados);
-  }
+    console.log(elementosSeparados);
+    const teste = Object.values(elementosSeparados);
+
+    return `${teste[0][0]} - ${teste[0].length}`
+  } console.log(separarElementosIguais(basket));
   const elementosSeparados = {
-    Melancia:
+   // Melancia:
   }
