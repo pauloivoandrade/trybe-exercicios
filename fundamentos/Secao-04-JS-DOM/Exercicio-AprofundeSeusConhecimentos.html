@@ -95,8 +95,29 @@
       const novaLista = document.createElement('li');
      novaLista.innerText = lista;
      novaLista.innerText = numeros;
-     locH1.lastChild.lastElementChild.appendChild(novaLista)}
-    
+     locH1.lastChild.lastElementChild.appendChild(novaLista)
+    }
+
+    const novosH3 = document.createElement('h3');
+    locH1.lastChild.appendChild(novosH3)
+
+    const novosH32 = document.createElement('h3');
+    locH1.lastChild.appendChild(novosH32)
+
+    const novosH33 = document.createElement('h3');
+    locH1.lastChild.appendChild(novosH33)
+
+    const titulo = document.querySelector('h1');
+    novoH1.classList.add('title');
+
+    const description = document.querySelectorAll('h3');
+    description[0].classList.add('Description'); 
+    description[1].classList.add('Description');
+    description[2].classList.add('Description'); 
+
+    const childRemove = document.createElement('section');
+    childRemove.appendChild(novoSection2);
+  
     </script>
   </body>
 </html>
