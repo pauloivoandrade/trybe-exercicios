@@ -57,7 +57,46 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+     const locH1 = document.getElementsByTagName('body')[0];
+
+     const novoH1 = document.createElement('h1');
+     novoH1.innerHTML = "TrybeTrip - Agência de Viagens";
+     locH1.appendChild(novoH1);
+
+     const novomain = document.createElement('main');
+     novomain.className = 'main-content';
+     locH1.appendChild(novomain);
+
+     const novoSection = document.createElement('section');
+     novoSection.className = 'center-content';
+     locH1.lastChild.appendChild(novoSection);
+
+     const novoParagrafo = document.createElement('p');
+     novoParagrafo.innerHTML = 'Los Hermanos está Raviosos!';
+     locH1.lastChild.firstChild.appendChild(novoParagrafo);
+
+     const novoSection2 = document.createElement('section');
+     novoSection2.className = 'left-content';
+     locH1.lastChild.appendChild(novoSection2);
+
+     const novoSection3 = document.createElement('section');
+     novoSection3.className = 'right-content';
+     locH1.lastChild.appendChild(novoSection3);
+
+     const novaImg = document.createElement('img');
+     novaImg.src = 'https://picsum.photos/200';
+     novaImg.className = 'small-image';
+     locH1.lastChild.firstChild.nextSibling.appendChild(novaImg);
+
+     
+     let lista = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+     for( let index = 0; index < lista.length; index += 1) {
+      let numeros = lista[index];
+      const novaLista = document.createElement('li');
+     novaLista.innerText = lista;
+     novaLista.innerText = numeros;
+     locH1.lastChild.lastElementChild.appendChild(novaLista)}
+    
     </script>
   </body>
 </html>
