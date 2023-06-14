@@ -114,10 +114,25 @@
     description[0].classList.add('Description'); 
     description[1].classList.add('Description');
     description[2].classList.add('Description'); 
+    
+   const remov = document.getElementsByClassName('left-content')[0];
+   novomain.removeChild(remov);
 
-    const childRemove = document.createElement('section');
-    childRemove.appendChild(novoSection2);
+   const sectionRight = document.getElementsByClassName('right-content')[0];
+   sectionRight.style.marginRight = 'auto';
+
+   const sectionCenter = document.getElementsByClassName('center-content')[0];
+   const parentCenter = sectionCenter.parentElement; 
+   parentCenter.style.backgroundColor = 'green';
+
+
+   novoSection3.lastChild.remove();
+   novoSection3.lastChild.remove();
   
+  //     let numeros = lista[index];
+  //     const novaLista = document.createElement('li');
+
+    
     </script>
   </body>
 </html>
